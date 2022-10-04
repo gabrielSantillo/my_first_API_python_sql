@@ -1,3 +1,7 @@
+# this file called dbhelpers is the connection with database
+# where I am treating every error that this process may have to no leave
+# the the error crashs the entire application
+
 from tkinter import EXCEPTION
 import dbcreds
 import mariadb
